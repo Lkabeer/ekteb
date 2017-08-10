@@ -1,0 +1,23 @@
+@charset "utf-8";
+#logo {
+	background-color: #2faeff;
+	text-align: center;
+	padding: 5px;
+	border-bottom: thick solid #FFFFFF;
+}
+
+.noPadding {
+	padding: 0;
+}
+
+.navbar-nav {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
