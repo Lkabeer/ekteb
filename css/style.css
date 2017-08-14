@@ -24,6 +24,11 @@
     padding-left: 0;
 }
 
+.marginRL0px {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .marginTB5px {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -42,21 +47,26 @@
 }
 
 .size1 {
-    min-height: 280px;
+    height: 280px;
     background-image: url("../images/pic-size1-1.png");
     background-size: cover;
     background-position: center;
 }
 
 .size2 {
-    min-height: 180px;
+    height: 180px;
     background-image: url("../images/pic-size2-1.png");
     background-size: cover;
     background-position: center;
 }
 
-.col3Xside1 {
+.sideX1 {
     width: 60%;
+    float: left;
+}
+
+.sideX2 {
+    width: 37%;
     float: left;
 }
 
@@ -65,13 +75,21 @@
     float: left;
 }
 
-.col3Xside2 {
-    width: 37%;
-    float: left;
+.height45px {
+    height: 45px !important;
 }
 
 .height35px {
     height: 35px !important;
+}
+
+.height25px {
+    height: 25px !important;
+}
+
+.width48-5Per {
+    width: 48.5%;
+    float: left;
 }
 
 .width17Per {
@@ -80,7 +98,7 @@
 }
 
 .size3 {
-    min-height: 135px;
+    height: 135px;
     background-image: url("../images/pic-size3-1.png");
     background-size: cover;
     background-position: center;
@@ -99,21 +117,21 @@
 }
 
 .size4 {
-    min-height: 105px;
+    height: 105px;
     background-image: url("../images/pic-size4-1.png");
     background-size: cover;
     background-position: center;
 }
 
 .size5 {
-    min-height: 75px;
+    height: 75px;
     background-image: url("../images/pic-size5-1.png");
     background-size: cover;
     background-position: center;
 }
 
 .size6 {
-    min-height: 30px;
+    height: 30px;
     background-image: url("../images/pic-size3-1.png");
     background-size: cover;
     background-position: center;
@@ -168,5 +186,29 @@
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
-}.paddingEktbX3 {
+}
+
+#footerX {
+    font-size: x-small;
+    line-height: 2.5;
+}
+
+#copyRightX {
+    direction: ltr;
+    float: left;
+    line-height: 2.5;
+    margin-left: 2.5%;
+}
+
+.socialMediaX {
+    direction: ltr;
+    float: right;
+    line-height: 2.5;
+    margin-right: 2.5%;
+}
+
+.socialMediaX i {
+    font-size: medium;
+    margin-right: 3px;
+    margin-left: 3px;
 }
