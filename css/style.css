@@ -1,4 +1,28 @@
 @charset "utf-8";
+/*
+html, body {
+    height: 100%;
+}
+*/
+
+body {
+    overflow-x: hidden;
+}
+
+.adXleft {
+    direction: ltr;    
+}
+
+.adXleft img{
+    height: 505px;
+    width: auto;
+}
+
+.adXRight img{
+    height: 505px;
+    width: auto;
+}
+
 .logoX {
 	background-color: #2faeff;
 	text-align: center;
@@ -180,12 +204,24 @@
     transform: translate(-50%, 0);
 }
 
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-menu li a {
+    color: #337ab7 !important;
+}
+
 .navbar {
 	margin-bottom: 0;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
 }
 
 #footerX {
@@ -212,3 +248,13 @@
     margin-right: 3px;
     margin-left: 3px;
 }
+
+/* animate.css X-Team */
+/*
+#ektebLogoX {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+*/
+/* end animate.css X-Team */
